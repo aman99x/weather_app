@@ -6,10 +6,13 @@ This Weather App is a simple Node.js application that fetches weather data from 
 Node.js, MongoDB, OpenWeatherMap API key
 
 # Installation
-## Clone the repository.
-## Install dependencies using npm install.
-## Set up MongoDB and obtain an OpenWeatherMap API key.
-## Create a .env file in the root directory and add your MongoDB connection string and OpenWeatherMap API key.
+ Clone the repository.
+ 
+ Install dependencies using npm install.
+ 
+ Set up MongoDB and obtain an OpenWeatherMap API key
+ 
+ Create a .env file in the root directory and add your MongoDB connection string and OpenWeatherMap API key.
 
 ## Run the application using npm start.
 
