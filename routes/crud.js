@@ -4,6 +4,7 @@ const Weather = require('../models/weather_model')
 const fetchWeatherData = require('./fetchWeather')
 
 
+
 // Create (POST)
 router.post('/weather', async (req, res) => {
     const { location } = req.body;
