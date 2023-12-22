@@ -3,9 +3,7 @@
 This Weather App is a simple Node.js application that fetches weather data from OpenWeatherMap and stores it in a MongoDB database. It provides CRUD (Create, Read, Update, Delete) functionalities for weather data.
 
 ## Requirements
-Node.js
-MongoDB
-OpenWeatherMap API key
+Node.js, MongoDB, OpenWeatherMap API key
 
 ## Installation
 Clone the repository.
@@ -15,7 +13,7 @@ Create a .env file in the root directory and add your MongoDB connection string 
 
 Run the application using npm start.
 
-## Usage
+# Usage
 ## POST /weather: 
 Create new weather data by providing a location.
 ## GET /weather: 
@@ -27,7 +25,7 @@ Delete weather data by ID.
 ## GET /weather/:location: 
 Search for weather data by location.
 
-## Environment Variables
+# Environment Variables
 ## MONGODB_URI: 
 MongoDB connection string.
 ## API_KEY: 
